@@ -1,0 +1,144 @@
+/************************ TAG SELECTORS ************************/
+div {
+  background-color: #ddeedf;
+  margin-top: 0;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Chilanka', cursive;
+  font-size: 4rem;
+  color: #388e3c;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Chilanka', cursive;
+  color: #388e3c;
+  font-weight: normal;
+  margin: 25px auto;
+}
+
+h3 {
+  color: #8bc34a;
+}
+
+a {
+  color: #8bc34a;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #ddeedf
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  margin: 0;
+  line-height: 2;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #ddeedf;
+}
+
+hr {
+  border: dotted #388e3c 6px;
+  border-bottom: none;
+  width: 8%;
+  margin: 15px auto;
+}
+
+/************************ CLASS SELECTORS ************************/
+.top-container {
+  background-color: #ddeedf;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #388e3c;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.icon-ref {
+  background-color: #388e3c;
+  font-size: .5rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile {
+  width: 30%;
+  height: 30%;
+  margin: auto auto 50px auto;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.photo-text{
+  text-align: right;
+}
+.skill-row {
+  width: 50%;
+  margin: 75px auto;
+  text-align: left;
+}
+
+.first-skills-pic {
+  float: left;
+  padding-right: 30px;
+}
+
+.second-skills-pic {
+  float: right;
+  padding-left: 30px;
+}
+
+.mountain {
+  margin-bottom: 50px;
+}
+
+.copyright {
+  color: #8bc34a;
+  font-size: .75rem;
+}
+
+.contact-me {
+  padding: 10px;
+}
+.button-container{
+  margin: 40px auto 20px auto;
+}
+.btn {
+  font-family: 'Chilanka', cursive;
+  font-weight: bold;
+  color: #F2F9F1;
+  font-size: 16px;
+  text-shadow: 1px 1px #384F1E;
+  padding: 10px 25px;
+  border-radius: 11px;
+  border: 2px solid #2A3B16;
+  background: #8bc34a;
+}
+.btn:hover {
+  color: #ddeedf;
+  background: #577A2E;
+}
